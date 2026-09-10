@@ -1,3 +1,4 @@
+
 import torch
 from PIL import Image
 from torchvision import transforms
@@ -28,3 +29,4 @@ with torch.no_grad():
 
 # 6. print class label
 print("Predicted class:", class_names[pred_idx])
+
